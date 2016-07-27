@@ -54,7 +54,7 @@ Por ejemplo::
    20
    >>> (50 - 5*6) / 4
    5.0
-   >>> 8 / 5  # la división simpre retorna un número de punto flotante
+   >>> 8 / 5  # la división simpre devuelve un número de punto flotante
    1.6
 
 Los números enteros (por ejemplo ``2``, ``4``, ``20``) son de tipo
@@ -62,17 +62,17 @@ Los números enteros (por ejemplo ``2``, ``4``, ``20``) son de tipo
 son de tipo :class:`float`. Vamos a ver más sobre tipos de números luego en
 este tutorial.
 
-La división (``/``) siempre retorna un punto flotante. Para hacer `floor
+La división (``/``) siempre devuelve un punto flotante. Para hacer `floor
 division` y obtener un resultado entero (descartando cualquier resultado
 fraccional) podés usar el operador ``//``; para calcular el resto podés usar
 ``%``::
 
-   >>> 17 / 3  # la división clásica retorna un punto flotante
+   >>> 17 / 3  # la división clásica devuelve un punto flotante
    5.666666666666667
    >>>
    >>> 17 // 3  # la división entera descarta la parte fraccional
    5
-   >>> 17 % 3  # el operado % retorna el resto de la división
+   >>> 17 % 3  # el operado % devuelve el resto de la división
    2
    >>> 5 * 3 + 2  # resultado * divisor + resto
    17
